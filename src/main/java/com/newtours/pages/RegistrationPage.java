@@ -37,7 +37,7 @@ public class RegistrationPage {
 	}
 
 	public void goTo() {
-		this.driver.get("http://www.newtours.demoaut.com/mercuryregister.php");
+		this.driver.get("http://demo.guru99.com/test/newtours/");
 		this.wait.until(ExpectedConditions.visibilityOf(this.firstNameTxt));
 	}
 		
